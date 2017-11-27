@@ -3,7 +3,7 @@ describe('My First Test', function() {
     Cypress.Cookies.debug();
     })
 
-  it('AkiraHomeSmokeTest!', function() {
+  it('Sign In!', function() {
         cy.clearCookies();
   cy.visit(Cypress.env('url'));
     cy.visit('https://www.netflix.com/login');
