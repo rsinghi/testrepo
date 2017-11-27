@@ -1,9 +1,6 @@
 describe('My First Test', function() {
   beforeEach(function(){
     Cypress.Cookies.debug();
-  //  //cy.visit('https://www-int.test.netflix.com');
-
-         //cy.visit('https://www-int.test.netflix.com/clearcookies');
     })
 
   it('AkiraHomeSmokeTest!', function() {
