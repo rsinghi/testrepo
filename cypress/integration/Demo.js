@@ -56,8 +56,8 @@ describe('My First Test', function() {
    it('Playback!', function() {
     cy.visit('https://www.netflix.com/login');
     // Login
-    cy.get('.login-input-email .ui-text-input').type('rsinghi_js@netflix.com');
-    cy.get('.login-input-password .ui-text-input').type('tester');
+    cy.get('.login-input-email .ui-text-input').type('<youruser>');
+    cy.get('.login-input-password .ui-text-input').type('<yourpassword>');
     cy.get('.login-button').click();
     cy.visit(Cypress.env('url') + '/watch/80077368'); 
 
